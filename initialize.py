@@ -148,5 +148,3 @@ def adjust_string(s):
     
     # OSがWindows以外の場合はそのまま返す
     return s
-
- 
