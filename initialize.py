@@ -149,16 +149,4 @@ def adjust_string(s):
     # OSがWindows以外の場合はそのまま返す
     return s
 
-    import traceback
-
-def initialize():
-    try:
-        initialize_session_state()
-        initialize_session_id()
-        initialize_logger()
-        initialize_agent_executor()
-    except Exception:
-        st.error("=== TRACEBACK START ===")
-        st.error(traceback.format_exc())
-        st.error("=== TRACEBACK END ===")
-        raise
+ 
